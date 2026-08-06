@@ -1,0 +1,209 @@
+# 📘 README.md - Personal Journal Manager
+
+---
+
+# 📌 Project Description
+
+**Personal Journal Manager** is a menu-driven Python application that allows users to securely maintain a personal digital journal. The application enables users to add journal entries with timestamps, view all saved entries, search entries using keywords or dates, delete all journal records, and manage their journal through a simple Command Line Interface (CLI). The project demonstrates Python File Handling, Exception Handling, Object-Oriented Programming (OOP), and Date & Time modules. :contentReference[oaicite:0]{index=0}
+
+---
+
+# ✨ Features
+
+- 📝 Add New Journal Entry
+- 📖 View All Journal Entries
+- 🔍 Search Entries by Keyword or Date
+- 🗑 Delete All Journal Entries
+- ⏰ Automatic Date & Time Stamp
+- 📂 File Handling using Text File
+- ⚠ Exception Handling
+- 📋 Menu Driven Program
+- 🚪 Exit Program
+
+---
+
+# 🛠 Technologies Used
+
+- Python 3.x
+- Object-Oriented Programming (OOP)
+- File Handling
+- Exception Handling
+- `datetime` Module
+- `os` Module
+- Command Line Interface (CLI)
+
+---
+
+# 📥 Installation
+
+### Step 1
+Install **Python 3.x** from:
+
+https://www.python.org/downloads/
+
+### Step 2
+Download the project file:
+
+```
+python project 6.py
+```
+
+### Step 3
+Open **Command Prompt** or **Terminal**.
+
+### Step 4
+Navigate to the project folder.
+
+### Step 5
+Run the project using:
+
+```bash
+python "python project 6.py"
+```
+
+---
+
+# ▶️ Usage
+
+Run the program and choose an option from the menu.
+
+```
+1. Add a New Entry
+2. View All Entries
+3. Search for an Entry
+4. Delete All Entries
+5. Exit
+```
+
+Follow the on-screen instructions to manage your personal journal.
+
+---
+
+# 📂 Project Structure
+
+```
+Personal-Journal-Manager/
+│
+├── python project 6.py
+├── journal.txt
+└── README.md
+```
+
+---
+
+# 📊 Flow Chart
+
+```
+                    START
+                      │
+                      ▼
+              Display Main Menu
+                      │
+ ┌──────────┬──────────┬──────────┬──────────┬─────────┐
+ │          │          │          │          │
+ ▼          ▼          ▼          ▼          ▼
+Add       View      Search     Delete      Exit
+Entry    Entries    Entry     All Entries
+ │          │          │          │
+ └──────────┴──────────┴──────────┘
+                      │
+                      ▼
+              Return to Main Menu
+                      │
+                      ▼
+                     END
+```
+
+---
+
+# 💻 Sample Output
+
+### Main Menu
+
+```
+========== Personal Journal Manager ==========
+
+1. Add a New Entry
+2. View All Entries
+3. Search for an Entry
+4. Delete All Entries
+5. Exit
+```
+
+### Add Entry
+
+```
+Enter your journal entry:
+
+Today was a productive day. I learned Python File Handling.
+
+Entry added successfully!
+```
+
+### View Entries
+
+```
+Your Journal Entries
+
+[2026-08-06 16:45:30]
+
+Today was a productive day. I learned Python File Handling.
+```
+
+### Search Entry
+
+```
+Enter keyword:
+
+Python
+
+Matching Entries Found
+```
+
+### Delete Entries
+
+```
+Are you sure you want to delete all entries? (yes/no)
+
+yes
+
+All journal entries have been deleted.
+```
+
+---
+
+# 🚀 Future Improvements
+
+- 💾 Store entries in a database
+- 🔒 Password protection for journal
+- 📅 Filter entries by date
+- ✏ Edit existing journal entries
+- ☁ Cloud backup support
+- 🖥 Graphical User Interface (GUI)
+- 📄 Export journal entries to PDF
+
+---
+
+# 👨‍💻 Author
+
+**Name:** Armin Khareghat
+
+**Course:** Python Programming
+
+**Project:** Personal Journal Manager
+
+**Language:** Python
+
+---
+
+# 📄 License
+
+This project is developed for educational and learning purposes only.
+
+---
+
+# ⭐ Thank You
+
+Thank you for using the **Personal Journal Manager**.
+
+If you find this project useful, consider giving it a ⭐ on GitHub.
